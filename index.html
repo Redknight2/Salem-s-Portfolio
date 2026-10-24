@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salem Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="Salem" class="logo">Salem</a>
+
+      <button
+        class="hamburger"
+        type="button"
+        id="hamburger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-container" id="nav-container">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+
+    <!-- HOME Section -->
+    <section id="home" class="home  container">
+      <div class="home-img">
+        <img src="images/main.jpg" class="bounce" alt="" />
+      </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Salem</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <p>
+          Building digital experiences with <em>code</em> &amp;
+          <em>creativity</em>. <br />
+          I&apos;m a developing software engineer exploring the intersection of
+          frontend development, Python, and thoughtful UI/UX design.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#" class="btn">Hire Me!</a>
+      </div>
+    </section>
+
+
+    <!-- ABOUT Section -->
+    <section class="about container" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">ABOUT ME</span>
+        <div>
+          <h2>Get to know me</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-story reveal">
+          <p class="about-lead">
+            I&apos;m Salem — a curious developer and designer turning ideas into
+            useful, accessible, and visually engaging digital experiences.
+          </p>
+          <div class="about-details">
+            <p>
+              My journey into technology is driven by a simple question: how can
+              code make everyday experiences better? I&apos;m building a strong
+              foundation in frontend development and Python while exploring the
+              design thinking behind products people enjoy using.
+            </p>
+            <p>
+              I care about clean structure, intentional details, and continuous
+              improvement. Every project is a chance to solve a new problem and
+              become a more thoughtful creator.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-cards">
+          <article class="highlight-card">
+            <div>
+              <span class="card-icon"><i class="fa-solid fa-code"></i></span>
+              <h3>Frontend Development</h3>
+              <p>
+                Building responsive, accessible interfaces for the modern web.
+              </p>
+            </div>
+          </article>
+          <article class="highlight-card">
+            <div>
+              <span class="card-icon"><i class="fa-brands fa-python"></i></span>
+              <h3>Python Programming</h3>
+              <p>Exploring practical programs, data, and useful automation.</p>
+            </div>
+          </article>
+          <article class="highlight-card">
+            <div>
+              <span class="card-icon"><i class="fa-solid fa-palette"></i></span>
+              <h3>UI/UX Design</h3>
+              <p>
+                Creating clear interfaces grounded in empathy and good visual
+                systems.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS SECTION ONE -->
+    <section class="skills container" id="skills">
+      <h2>MY SKILLS</h2>
+      <p>
+        A curated snapshot of my core technical toolkit and design software.
+        Built steadily through hands-on personal projects, problem-solving, and
+        an ongoing commitment to mastering modern web development.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>Photoshop</span>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" data-width="90"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>Javascript</span>
+            <span class="skill-percentage">75%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" data-width="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>HTML5</span>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" data-width="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>CSS3</span>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" data-width="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>Bootstrap/Tailwind CSS</span>
+            <span class="skill-percentage">60%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" data-width="60"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-info">
+            <span>Python</span>
+            <span class="skill-percentage">68%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" data-width="68"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS SECTION TWO -->
+    <section class="skills-two container" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills I&apos;m building.</h2>
+
+        <div class="skill-groups">
+          <article class="skill-group glass-card reveal">
+            <header>
+              <span>01</span>
+              <h3>Frontend</h3>
+            </header>
+            <div class="skill-list">
+              <div class="skill">
+                <span class="skill-mark html">H</span>
+                <div>
+                  <strong>HTML5</strong><small>Semantic structure</small>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-mark css">C</span>
+                <div>
+                  <strong>CSS3</strong><small>Responsive styling</small>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-mark js">JS</span>
+                <div>
+                  <strong>JavaScript</strong><small>Browser interactions</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="skill-group glass-card reveal">
+            <header>
+              <span>02</span>
+              <h3>Programming</h3>
+            </header>
+            <div class="skill-list">
+              <div class="skill">
+                <span class="skill-mark python">Py</span>
+                <div>
+                  <strong>Python</strong><small>Logic &amp; automation</small>
+                </div>
+              </div>
+            </div>
+            <div class="skill-list">
+              <div class="skill">
+                <span class="skill-mark python">Jsx</span>
+                <div>
+                  <strong>React</strong><small>Web Responsiveness</small>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="skill-group glass-card reveal">
+            <header>
+              <span>03</span>
+              <h3>Design</h3>
+            </header>
+            <div class="skill-list">
+              <div class="skill">
+                <span class="skill-mark figma">F</span>
+                <div><strong>Figma</strong><small>Interface design</small></div>
+              </div>
+              <div class="skill">
+                <span class="skill-mark responsive">R</span>
+                <div>
+                  <strong>Responsive Design</strong
+                  ><small>Adaptive layouts</small>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-mark ux">UX</span>
+                <div>
+                  <strong>UI/UX Fundamentals</strong
+                  ><small>Human-centered thinking</small>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-mark ux">UX</span>
+                <div>
+                  <strong>Photoshop Fundamentals</strong
+                  ><small>Graphic Designs &amp; Photo editing</small>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- PROJECTS SECTION -->
+    <section class="projects-section container" id="projects">
+      <div class="projects-container">
+
+        <!-- Section Heading -->
+        <div class="projects-heading">
+          <span class="projects-eyebrow">MY WORK</span>
+          <h2>Things I've <span>Built.</span></h2>
+          <p>
+            A collection of projects, experiments, and ideas
+            brought to life through code and creativity.
+          </p>
+        </div>
+
+        <!-- Featured Project -->
+        <article class="projects-featured" data-project-category="api javascript">
+          <div class="projects-preview projects-preview-weather">
+            <img
+              src="images/weather-app.png"
+              alt="Weather application preview"
+              loading="lazy"
+            />
+            <span class="projects-number">01 / FEATURED</span>
+          </div>
+
+          <div class="projects-info">
+            <span class="projects-type">API INTEGRATION</span>
+            <h3>Weather App</h3>
+            <p>
+              A weather application that fetches real-time
+              weather data and presents current conditions
+              through a clean, responsive interface.
+            </p>
+
+            <ul class="projects-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Weather API</li>
+            </ul>
+
+            <div class="projects-links">
+              <a href="#" class="projects-link">
+                Live Demo <span aria-hidden="true">↗</span>
+              </a>
+              <a href="#" class="projects-link">
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Other Projects -->
+        <div class="projects-grid">
+
+          <!-- Calculator -->
+          <article class="projects-card" data-project-category="javascript">
+            <div class="projects-card-preview">
+              <img
+                src="images/calculator.png"
+                alt="JavaScript calculator preview"
+                loading="lazy"
+              />
+              <span class="projects-card-number">02</span>
+            </div>
+
+            <div class="projects-card-content">
+              <span class="projects-type">JAVASCRIPT</span>
+              <h3>JavaScript Calculator</h3>
+              <p>
+                A functional calculator built with JavaScript
+                for everyday mathematical operations.
+              </p>
+
+              <ul class="projects-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="projects-links">
+                <a href="#" class="projects-link">Live Demo ↗</a>
+                <a href="#" class="projects-link">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Lofgin-PAge -->
+          <article class="projects-card" data-project-category="javascript ui">
+            <div class="projects-card-preview">
+              <img
+                src="images/Login-page.png"
+                alt="Login Page preview project preview"
+                loading="lazy"
+              />
+              <span class="projects-card-number">03</span>
+            </div>
+
+            <div class="projects-card-content">
+              <span class="projects-type">WEB PROJECT</span>
+              <h3>Login-Register-page</h3>
+              <p>
+                A project focused on a simple, intuitive
+                interface and a polished user experience.
+              </p>
+
+              <ul class="projects-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="projects-links">
+                <a href="#" class="projects-link">Live Demo ↗</a>
+                <a href="#" class="projects-link">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dark / Light Mode -->
+          <article class="projects-card" data-project-category="javascript ui">
+            <div class="projects-card-preview">
+              <img
+                src="images/theme-switcher.png"
+                alt="Dark and light mode website preview"
+                loading="lazy"
+              />
+              <span class="projects-card-number">04</span>
+            </div>
+
+            <div class="projects-card-content">
+              <span class="projects-type">UI & INTERACTION</span>
+              <h3>Theme Switcher</h3>
+              <p>
+                A responsive website with interactive light
+                and dark themes for a more comfortable
+                browsing experience.
+              </p>
+
+              <ul class="projects-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="projects-links">
+                <a href="#" class="projects-link">Live Demo ↗</a>
+                <a href="#" class="projects-link">GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Closing Message -->
+        <div class="projects-footer">
+          <p>Every project is another step forward.</p>
+          <span>MORE TO COME <span aria-hidden="true">✳</span></span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- CONTACTS SECTION -->
+     <section class="contact section container" id="contact" aria-labelledby="contact-title">
+        <div class="contact-panel">
+          <div class="contact-copy reveal">
+            <p class="section-kicker">Start a conversation</p>
+            <h2 id="contact-title">Have an idea?<br />Let&apos;s build <em>something.</em></h2>
+            <p>
+              I&apos;m open to connecting, learning, and exploring thoughtful projects. Send a message and
+              let&apos;s see where the idea goes.
+            </p>
+            <a class="email-link" href="mailto:hello@example.com">
+              <span>
+                <small>Email me at</small>
+                salemjoseph731@gmail.com
+              </span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </a>
+            <div class="social-links">
+              <a href="#" aria-label="Salem Joseph on LinkedIn">LinkedIn <span>↗</span></a>
+              <a href="#" aria-label="Salem Joseph on GitHub">GitHub <span>↗</span></a>
+            </div>
+          </div>
+
+          <form class="contact-form glass-card" id="contact-form">
+            <div class="form-row">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Smith" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required />
+            </div>
+            <div class="form-row">
+              <label for="subject">What&apos;s this about?</label>
+              <select id="subject" name="subject">
+                <option value="project">A project idea</option>
+                <option value="collaboration">A collaboration</option>
+                <option value="hello">Just saying hello</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Tell me a little more</label>
+              <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+            </div>
+            <button class="button button--primary button--full" type="submit">
+              Send Message
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+    <footer class="footer">
+      <div class="container footer-top">
+        <div>
+          <a class="brand" href="#home">SALEM<span>.</span></a>
+          <p>Designed &amp; built by Salem Joseph.</p>
+        </div>
+        <div class="footer-links">
+          <div><strong>Navigate</strong><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a></div>
+          <div><strong>Connect</strong><a href="#">LinkedIn</a><a href="#">GitHub</a><a href="mailto:hello@example.com">Email</a></div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p><span id="current-year">2026</span> Salem Joseph. All rights reserved.</p>
+        <a href="#home">Back to top <span>↑</span></a>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
